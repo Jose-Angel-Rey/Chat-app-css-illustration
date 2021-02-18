@@ -1,9 +1,38 @@
+/*Coded by: Jose Angel Rey
+Github: https://github.com/Jose-Angel-Rey
+Gmail: dev.joseangel.rey@gmail.com*/
 
+// General font family
+$fnt-family: "Rubik", sans-serif;
 
+// Text colors
+$sub-heading-top-section-screen: hsl(276, 100%, 81%);
+$color-chat-left: hsl(276, 55%, 52%);
+$color-chat-right: hsl(271, 15%, 43%);
+$input-placeholder-color: hsl(206, 6%, 79%);
+$main-heading-color: hsl(271, 36%, 24%);
+$paragraph-color: hsl(270, 7%, 64%);
 
+// Components background colors
+$bg-color-screen: hsl(270, 20%, 96%);
+$bg-color-msg: hsl(0, 0%, 100%);
+$bg-color-submit-btn: hsl(271, 36%, 24%);
+$bg-color-radio-btn: hsl(289, 100%, 72%);
 
+// Background gradient colors
+$gradient-first-color: hsl(293, 100%, 63%);
+$gradient-second-color: hsl(264, 100%, 61%);
+
+// -------- @Mixins section ----------
 
 // Background gradient
 @mixin gradient($deg) {
-    linear-gradient($deg $gradient-first-color, $gradient-second-color)
+  background: linear-gradient(
+    $deg $gradient-first-color,
+    $gradient-second-color
+  );
+}
+
+@mixin border($color) {
+  border: 2px solid $color;
 }
