@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "mappings": "AIAA,AAAA,YAAY,AAAC,CACT,SAAS,CAAE,IAAI,CACf,UAAU,CAAE,MAAM,CACnB,AACD,AAAA,YAAY,CAAC,CAAC,AAAC,CACb,KAAK,CAAE,OAAkB,CAC1B",
+    "sources": [
+        "../scss/main-styles.scss",
+        "../scss/_var-mixin.scss",
+        "../scss/_mockup-styles.scss",
+        "../scss/_content-styles.scss",
+        "../scss/_attribution-styles.scss"
+    ],
+    "names": [],
+    "file": "main-styles.css"
+}
