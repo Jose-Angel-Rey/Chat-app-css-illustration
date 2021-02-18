@@ -15,7 +15,7 @@ $paragraph-color: hsl(270, 7%, 64%);
 
 // Components background colors
 $bg-color-screen: hsl(270, 20%, 96%);
-$bg-color-msg: hsl(0, 0%, 100%);
+$bg-color-msg: #ffffff;
 $bg-color-submit-btn: hsl(271, 36%, 24%);
 $bg-color-radio-btn: hsl(289, 100%, 72%);
 
@@ -34,5 +34,5 @@ $gradient-second-color: hsl(264, 100%, 61%);
 }
 
 @mixin border($color) {
-  border: 2px solid $color;
+  border: 0px solid $color;
 }
