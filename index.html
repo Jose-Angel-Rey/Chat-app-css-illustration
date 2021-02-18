@@ -1,103 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Frontend Mentor challengue solution - Chat app CSS illustration"
+    />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Frontend Mentor challengue solution - Chat app CSS illustration">
-  
     <!-- Coded by: Jose Angel Rey
   Github: https://github.com/Jose-Angel-Rey
   Gmail: dev.joseangel.rey@gmail.com -->
 
-  <link rel="stylesheet" href="./font-awesome/css/all.min.css">
+    <link rel="stylesheet" href="./font-awesome/css/all.min.css" />
 
-    <link rel="stylesheet" href="./css/main-styles.css">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="./css/main-styles.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <title>Chat app CSS illustration| Frontend Mentor</title>
+    <title>Chat app CSS illustration| Frontend Mentor</title>
+  </head>
 
-</head>
-
-<body>
-
-  <main class="main-container">
-
-    <!--  Mockup  -->
-    <div class="mockup-container">
-      <div class="screen-container">
-
-        <div class="header-screen-container">
-          <div class="profile-container">
-          <i class="fa fa-chevron-left"></i>
-          <img loading="lazy" src="./images/avatar.jpg" alt="Samuel Green Photo" class="profile-data__image">
-          <div class="profile-data-container">
-            <h2 class="profile-data__name">Samuel Green</h2>
-            <h3 class="profile-data__status">Available to Walk</h3>
+  <body>
+    <main class="main-container">
+      <!--  Mockup  -->
+      <div class="mockup-container">
+        <div class="screen-container">
+          <div class="header-screen-container">
+            <div class="profile-container">
+              <i class="fa fa-chevron-left"></i>
+              <img
+                loading="lazy"
+                src="./images/avatar.jpg"
+                alt="Samuel Green Photo"
+                class="profile-data__image"
+              />
+              <div class="profile-data-container">
+                <h2 class="profile-data__name">Samuel Green</h2>
+                <h3 class="profile-data__status">Available to Walk</h3>
+              </div>
+              <i class="fa fa-ellipsis-v"></i>
+            </div>
           </div>
-          <i class="fa fa-ellipsis-v"></i>
-        </div>
-        </div>
 
-        <div class="msg-left-container">
-          <p class="msg-left__content">That sounds great. I’d be happy with that.</p>
-          <p class="msg-left__content">Could you send over some pictures of your dog, please?</p>
+          <div class="msg-left-container">
+            <p class="msg-left__content">
+              That sounds great. I’d be happy with that.
+            </p>
+            <p class="msg-left__content">
+              Could you send over some pictures of your dog, please?
+            </p>
+          </div>
 
+          <div class="img-container">
+            <img
+              src="./images/dog-image-1.jpg"
+              loading="lazy"
+              alt="Dog image"
+            />
+            <img
+              src="./images/dog-image-2.jpg"
+              loading="lazy"
+              alt="Dog image"
+            />
+            <img
+              src="./images/dog-image-3.jpg"
+              loading="lazy"
+              alt="Dog image"
+            />
+          </div>
+
+          <div class="msg-right-container">
+            <p class="msg-right__content">
+              Here are a few pictures. She’s a happy girl!
+            </p>
+            <p class="msg-right__content">Can you make it?</p>
+          </div>
+
+          <div class="msg-left-container">
+            <p class="msg-left__content">
+              She looks so happy! The time we discussed works. How long shall I
+              take her out for?
+            </p>
+          </div>
+
+          <div class="msg-price-container">
+            <p class="msg-price__content">
+              <i class="far fa-circle"></i>30 minute walk
+              <span class="msg-price__price">$29</span>
+            </p>
+            <p class="msg-price__content">
+              <i class="far fa-circle"></i>1 hour walk
+              <span class="msg-price__price">$49</span>
+            </p>
+          </div>
+
+          <div class="input-txt-container">
+            <input type="text" disabled placeholder="Type a message..." /><i
+              class="fa fa-chevron-right"
+            ></i>
+          </div>
         </div>
-
-        <div class="img-container">
-          <img src="./images/dog-image-1.jpg" loading="lazy" alt="Dog image">
-          <img src="./images/dog-image-2.jpg" loading="lazy" alt="Dog image">
-          <img src="./images/dog-image-3.jpg" loading="lazy" alt="Dog image">
-        </div>
-
-        <div class="msg-right-container">
-          <p class="msg-right__content">Here are a few pictures. She’s a happy girl!</p>
-          <p class="msg-right__content">Can you make it?</p>
-        </div>
-
-        <div class="msg-left-container">
-          <p class="msg-left__content">She looks so happy! The time we discussed works. How long shall I take her out
-            for?</p>
-        </div>
-
-        <div class="msg-price-container">
-          
-          <p class="msg-price__content"><i class="far fa-circle"></i>30 minute walk <span class="msg-price__price">$29</span></p>
-          <p class="msg-price__content"><i class="far fa-circle"></i>1 hour walk <span class="msg-price__price">$49</span></p>
-        </div>
-
-        <div class="input-txt-container">
-          <input type="text" disabled placeholder="Type a message..."><i class="fa fa-chevron-right"></i>
-        </div>
-
       </div>
-    </div>
 
-    <!--  Content section  -->
+      <!--  Content section  -->
 
-    <section class="content-container">
-      <h1 class="content__title">Simple booking</h1>
-      <p class="content__info">Stay in touch with our dog walkers through the chat interface. This makes it easy to
-        discuss arrangements and make bookings. Once the walk has been completed you can rate
-        your walker and book again all through the chat.</p>
-    </section>
-  </main>
+      <section class="content-container">
+        <h1 class="content__title">Simple booking</h1>
+        <p class="content__info">
+          Stay in touch with our dog walkers through the chat interface. This
+          makes it easy to discuss arrangements and make bookings. Once the walk
+          has been completed you can rate your walker and book again all through
+          the chat.
+        </p>
+      </section>
 
-  <i class="fab fa-chevron-left"></i>
-  <i class="fab fa-circle-notch"></i>
-  <i class="fab fa-ellipsis-v"></i>
+      <!-- Attribution section -->
+      <footer class="attribution">
+        <p>
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >.
+        </p>
 
-  <div class="attribution">
-    <p>
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    </p>
+        <p>
+          Coded by
+          <a href="https://github.com/Jose-Angel-Rey" target="_blank"
+            >Jose Angel Rey</a
+          >.
+        </p>
+      </footer>
+    </main>
 
-    <p>
-      Coded by <a href="https://github.com/Jose-Angel-Rey" target="_blank">Jose Angel Rey</a>.
-    </p>
-  </div>
-</body>
-
+    <!-- <div class="bg-objects-container"> -->
+      <div class="bg-object-1"></div>
+      <div class="bg-object-2"></div>
+    <!-- </div> -->
+  </body>
 </html>

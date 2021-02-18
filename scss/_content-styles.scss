@@ -1,0 +1,28 @@
+/* Content styles */
+
+.content-container{
+    width: 90%;
+    max-width: 400px;
+    display: flex;
+    flex-flow: column nowrap;
+    @include border(green);
+    margin-bottom: 50px;
+
+    .content__title{
+        font-size: 4rem;
+        color: $main-heading-color;
+        width: 100%;
+        text-align: center;
+        @include border(red);
+        margin-bottom: 30px;
+    }
+    .content__info{
+        width: 100%;
+        @include border(blue);
+        text-align: center;
+        font-size: 1.6rem;
+        color: $paragraph-color;
+        line-height: 25px;
+    }
+
+}
