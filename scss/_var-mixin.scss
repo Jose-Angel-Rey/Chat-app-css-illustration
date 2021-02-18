@@ -1,0 +1,9 @@
+
+
+
+
+
+// Background gradient
+@mixin gradient($deg) {
+    linear-gradient($deg $gradient-first-color, $gradient-second-color)
+}
