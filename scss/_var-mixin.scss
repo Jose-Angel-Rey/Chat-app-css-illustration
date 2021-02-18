@@ -28,7 +28,7 @@ $gradient-second-color: hsl(264, 100%, 61%);
 // Background gradient
 @mixin gradient($deg) {
   background: linear-gradient(
-    $deg $gradient-first-color,
+    $deg, $gradient-first-color,
     $gradient-second-color
   );
 }
