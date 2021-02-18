@@ -1,27 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+    crossorigin="anonymous" />
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | [Challenge Name Here]</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    .main-container {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+    }
+
+    .mockup-container {
+      border: 2px solid magenta;
+      width: 350px;
+      border-radius: 10px;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+    }
+    .screen-container{
+      border: 2px solid green;
+      border-radius: 10px;
+    }
+
   </style>
 </head>
+
 <body>
 
   <main class="main-container">
-    
+
     <!--  Mockup  -->
-  <div class="mockup-container">
+    <div class="mockup-container">
       <div class="screen-container">
 
         <div class="header-screen-container">
@@ -42,16 +73,17 @@
           <img src="./images/dog-image-3.jpg" alt="Dog image">
         </div>
 
-         <div class="mdg-right-container">
-           <p class="msg-right__content">Here are a few pictures. She’s a happy girl!</p>
-           <p class="msg-right__content">Can you make it?</p>
-         </div>
-
-         <div class="msg-left-container">
-          <p class="msg-left__content">She looks so happy! The time we discussed works. How long shall I take her out for?</p>
+        <div class="mdg-right-container">
+          <p class="msg-right__content">Here are a few pictures. She’s a happy girl!</p>
+          <p class="msg-right__content">Can you make it?</p>
         </div>
 
-        <div class="msg-price-container">    
+        <div class="msg-left-container">
+          <p class="msg-left__content">She looks so happy! The time we discussed works. How long shall I take her out
+            for?</p>
+        </div>
+
+        <div class="msg-price-container">
           <p class="msg-price__content">30 minute walk <span class="msg-price__price">$29</span></p>
           <p class="msg-price__content">1 hour walk <span class="msg-price__price">$49</span></p>
         </div>
@@ -67,8 +99,8 @@
 
     <section class="content-container">
       <h1 class="content__title">Simple booking</h1>
-      <p class="content__info">Stay in touch with our dog walkers through the chat interface. This makes it easy to 
-        discuss arrangements and make bookings. Once the walk has been completed you can rate 
+      <p class="content__info">Stay in touch with our dog walkers through the chat interface. This makes it easy to
+        discuss arrangements and make bookings. Once the walk has been completed you can rate
         your walker and book again all through the chat.</p>
     </section>
   </main>
@@ -76,10 +108,11 @@
   <i class="fab fa-chevron-left"></i>
   <i class="fab fa-circle-notch"></i>
   <i class="fab fa-box-open"></i>
-  
+
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
   </div>
 </body>
+
 </html>
