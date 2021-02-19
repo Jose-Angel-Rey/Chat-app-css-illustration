@@ -6,47 +6,47 @@
 :root {
   font-size: 62.5%;
 }
-body{
-    position: relative;
-    width: 100%;
-    z-index: -1;
 
-    &::before{
-        content: "";
-        height: 600px;
-        width: 100%;
-        @include gradient(90deg);
-        border-radius: 0px 0px 50% 50%;
-        position: absolute;
-        top: 0;
-        left: -50%;
-        z-index: -5;
-    }
-    &::after{
-        content: "";
-        height: 600px;
-        width: 100%;
-        @include gradient(90deg);
-        border-radius: 50% 50% 0px 0px;
-        position: absolute;
-        bottom: 0;
-        right: -50%;
-        z-index: -5;
-    }
+.main-container {
+  position: relative;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+
+  &::before {
+    content: "";
+    height: 600px;
+    width: 100%;
+    @include gradient(90deg);
+    border-radius: 0px 0px 1000px 1000px;
+    position: absolute;
+    top: 0;
+    left: -50%;
+    z-index: -5;
+  }
+  &::after {
+    content: "";
+    height: 600px;
+    width: 100%;
+    @include gradient(90deg);
+    border-radius: 1000px 1000px 0px 0px;
+    position: absolute;
+    bottom: 0;
+    right: -50%;
+    z-index: -5;
+  }
 }
 
-
 /* Mockup styles */
-.main-container {
-    width: 100%;
-    max-width: 500px;
+.content-container {
+  width: 100%;
+  max-width: 500px;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   @include border(magenta);
   padding-top: 50px;
   font-family: $fnt-family;
-  
 }
 
 .mockup-container {

@@ -1,6 +1,6 @@
 /* Content styles */
 
-.content-container{
+.info-container{
     width: 90%;
     max-width: 400px;
     display: flex;
@@ -8,7 +8,7 @@
     @include border(green);
     margin-bottom: 50px;
 
-    .content__title{
+    .info__title{
         font-size: 4rem;
         color: $main-heading-color;
         width: 100%;
@@ -16,7 +16,7 @@
         @include border(red);
         margin-bottom: 30px;
     }
-    .content__info{
+    .info-content{
         width: 100%;
         @include border(blue);
         text-align: center;
