@@ -1,28 +1,29 @@
 /* Content styles */
 
-.info-container{
-    width: 90%;
-    max-width: 400px;
-    display: flex;
-    flex-flow: column nowrap;
-    @include border(green);
-    margin-bottom: 50px;
+.info-container {
+  width: 80%;
+  max-width: 350px;
+  display: flex;
+  flex-flow: column nowrap;
+  @include border(green);
+  margin-bottom: 50px;
 
-    .info__title{
-        font-size: 4rem;
-        color: $main-heading-color;
-        width: 100%;
-        text-align: center;
-        @include border(red);
-        margin-bottom: 30px;
-    }
-    .info-content{
-        width: 100%;
-        @include border(blue);
-        text-align: center;
-        font-size: 1.6rem;
-        color: $paragraph-color;
-        line-height: 25px;
-    }
-
+  .info__title {
+    font-weight: 500;
+    font-size: 4rem;
+    color: $main-heading-color;
+    width: 100%;
+    text-align: center;
+    @include border(red);
+    margin-bottom: 30px;
+  }
+  .info-content {
+    width: 100%;
+    font-weight: 400;
+    @include border(blue);
+    text-align: center;
+    font-size: 1.6rem;
+    color: $paragraph-color;
+    line-height: 25px;
+  }
 }

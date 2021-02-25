@@ -5,17 +5,17 @@
     &::before {
       width: 40%;
       height: 700px;
-      left: -12vw;
+      left: -14vw;
     }
     &::after {
       width: 40%;
       height: 700px;
-      right: -12vw;
+      right: -14vw;
     }
   }
   .content-container {
     height: 600px;
-    max-width: 800px;
+    max-width: 850px;
     justify-content: space-between;
     padding-top: 0;
   }
@@ -23,6 +23,7 @@
     margin-bottom: 0px;
   }
   .info-container {
+    max-width: 430px;
     align-self: center;
     margin-bottom: 0px;
     .info__title,
