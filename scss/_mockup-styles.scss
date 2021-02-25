@@ -70,6 +70,7 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  overflow-y: scroll;
 
   /* Header mockup */
   .header-screen-container {
