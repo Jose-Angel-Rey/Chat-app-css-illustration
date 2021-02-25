@@ -71,6 +71,7 @@
   flex-flow: row wrap;
   justify-content: center;
   padding-bottom: 15px;
+  overflow: hidden;
 
   /* Header mockup */
   .header-screen-container {
@@ -147,6 +148,14 @@
       margin-bottom: 10px;
       box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
     }
+    .msg-left__animate {
+      @include animation-delay(10s);
+    }
+  }
+  .msg-left-container-2 {
+    .msg-left__content-2 {
+      @include animation-delay(9s);
+    }
   }
   .img-container {
     width: 90%;
@@ -159,6 +168,7 @@
       width: 40px;
       height: 40px;
       border-radius: 25%;
+      @include animation-delay(6s);
 
       &:nth-child(2) {
         margin: 0px 10px;
@@ -181,9 +191,11 @@
       margin-bottom: 10px;
       background-color: $bg-color-msg;
       color: #000;
+      @include animation-delay(7s);
 
       &:nth-child(2) {
         width: 45%;
+        @include animation-delay(8s);
       }
     }
   }
@@ -200,6 +212,11 @@
       display: flex;
       align-items: center;
       padding: 2px 5px 2px 10px;
+      @include animation-delay(10s);
+
+      &:last-of-type {
+        @include animation-delay(11s);
+      }
 
       .far {
         color: $bg-color-radio-btn;
@@ -226,6 +243,7 @@
     justify-content: space-between;
     align-items: center;
     box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.3);
+    @include animation-delay(12s);
 
     input {
       width: 80%;

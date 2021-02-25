@@ -17,7 +17,12 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
     <link rel="stylesheet" href="./font-awesome/css/all.min.css" />
 
     <link rel="stylesheet" href="./css/main-styles.css" />
@@ -38,7 +43,9 @@
         <div class="mockup-container">
           <div class="screen-container">
             <div class="header-screen-container">
-              <div class="profile-container">
+              <div
+                class="profile-container animate__animated animate__zoomIn animate__delay-1s"
+              >
                 <i class="fa fa-chevron-left"></i>
                 <img
                   loading="lazy"
@@ -55,10 +62,14 @@
             </div>
 
             <div class="msg-left-container">
-              <p class="msg-left__content">
+              <p
+                class="msg-left__content animate__animated animate__bounceIn animate__delay-3s"
+              >
                 That sounds great. I’d be happy with that.
               </p>
-              <p class="msg-left__content">
+              <p
+                class="msg-left__content animate__animated animate__bounceIn animate__delay-5s"
+              >
                 Could you send over some pictures of your dog, please?
               </p>
             </div>
@@ -68,45 +79,58 @@
                 src="./images/dog-image-1.jpg"
                 loading="lazy"
                 alt="Dog image"
+                class="animate__animated animate__bounceIn"
               />
               <img
                 src="./images/dog-image-2.jpg"
                 loading="lazy"
                 alt="Dog image"
+                class="animate__animated animate__bounceIn"
               />
               <img
                 src="./images/dog-image-3.jpg"
                 loading="lazy"
                 alt="Dog image"
+                class="animate__animated animate__bounceIn"
               />
             </div>
 
             <div class="msg-right-container">
-              <p class="msg-right__content">
+              <p class="msg-right__content animate__animated animate__bounceIn">
                 Here are a few pictures. She’s a happy girl!
               </p>
-              <p class="msg-right__content">Can you make it?</p>
+              <p class="msg-right__content animate__animated animate__bounceIn">
+                Can you make it?
+              </p>
             </div>
 
-            <div class="msg-left-container">
-              <p class="msg-left__content">
+            <div class="msg-left-container msg-left-container-2">
+              <p
+                class="msg-left__content msg-left__content-2 animate__animated animate__bounceIn"
+              >
                 She looks so happy! The time we discussed works. How long shall
                 I take her out for?
               </p>
             </div>
 
             <div class="msg-price-container">
-              <p class="msg-price__content">
+              <p
+                class="msg-price__content animate__animated animate__bounceInLeft"
+              >
                 <i class="far fa-circle"></i>30 minute walk
                 <span class="msg-price__price">$29</span>
               </p>
-              <p class="msg-price__content">
+              <p
+                class="msg-price__content animate__animated animate__bounceInLeft"
+              >
                 <i class="far fa-circle"></i>1 hour walk
                 <span class="msg-price__price">$49</span>
               </p>
             </div>
 
-            <div class="input-txt-container">
+            <div
+              class="input-txt-container animate__animated animate__fadeInUp"
+            >
               <input type="text" disabled placeholder="Type a message..." /><i
                 class="fa fa-chevron-right"
               ></i>
