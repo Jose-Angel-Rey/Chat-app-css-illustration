@@ -51,8 +51,9 @@
 
 .mockup-container {
   @include border(green);
-  width: 275px;
-  height: 525px;
+  width: 85%;
+  max-width: 275x;
+  height: 575px;
   border-radius: 50px;
   padding: 20px 15px;
   background-color: #fff;
