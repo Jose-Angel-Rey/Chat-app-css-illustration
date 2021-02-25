@@ -33,10 +33,6 @@ $gradient-second-color: hsl(264, 100%, 61%);
   );
 }
 
-@mixin border($color) {
-border: 0px solid $color;
-}
-
 @mixin animation-delay($duration){
   animation-delay: $duration;
 }

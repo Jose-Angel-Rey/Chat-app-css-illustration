@@ -5,7 +5,6 @@
   max-width: 350px;
   display: flex;
   flex-flow: column nowrap;
-  @include border(green);
   margin-bottom: 50px;
 
   .info__title {
@@ -14,13 +13,11 @@
     color: $main-heading-color;
     width: 100%;
     text-align: center;
-    @include border(red);
     margin-bottom: 30px;
   }
   .info-content {
     width: 100%;
     font-weight: 400;
-    @include border(blue);
     text-align: center;
     font-size: 1.6rem;
     color: $paragraph-color;

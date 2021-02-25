@@ -44,13 +44,11 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  @include border(magenta);
   padding-top: 50px;
   font-family: $fnt-family;
 }
 
 .mockup-container {
-  @include border(green);
   width: 85%;
   max-width: 30rem;
   height: 60rem;
@@ -64,7 +62,6 @@
 }
 
 .screen-container {
-  @include border(blue);
   background-color: $bg-color-screen;
   border-radius: 35px 35px 45px 45px;
   display: flex;
@@ -78,7 +75,6 @@
     width: 100%;
     border-radius: 35px 35px 5px 5px;
     @include gradient(-95deg);
-    @include border(orange);
     margin-bottom: 10px;
     padding-bottom: 10px;
     display: flex;
@@ -98,7 +94,6 @@
     }
     .profile-container {
       width: 90%;
-      @include border(orange);
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -119,7 +114,6 @@
     }
     .profile-data-container {
       width: 70%;
-      @include border(orange);
 
       .profile-data__name {
         font-size: 1.3rem;
@@ -135,7 +129,6 @@
   /* Body (Chat) Mockup */
   .msg-left-container {
     width: 90%;
-    @include border(blue);
     .msg-left__content {
       background-color: #ede5f4;
       color: $color-chat-left;
@@ -144,7 +137,6 @@
       line-height: 14px;
       padding: 8px 15px;
       border-radius: 15px 15px 15px 5px;
-      @include border(red);
       margin-bottom: 10px;
       box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
     }
@@ -159,7 +151,6 @@
   }
   .img-container {
     width: 90%;
-    @include border(green);
     margin-bottom: 8px;
     display: flex;
     justify-content: flex-end;
@@ -187,7 +178,6 @@
       padding: 8px 15px;
       border-radius: 15px 15px 5px 15px;
       box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
-      @include border(red);
       margin-bottom: 10px;
       background-color: $bg-color-msg;
       color: #000;
@@ -234,8 +224,6 @@
   }
   .input-txt-container {
     width: 90%;
-    @include border(red);
-    // margin-bottom: 5px;
     background-color: #fff;
     padding: 5px 10px 5px 20px;
     border-radius: 50px;
